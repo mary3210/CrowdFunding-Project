@@ -1,0 +1,25 @@
+nav.nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav.nav span {
+    margin-right: 15px;
+}
+
+.nav {
+    background-image: url(images/image-hero-mobile.jpg);
+    background-repeat: no-repeat;
+    height: 179px;
+    background-size: cover;
+    z-index: -1;
+    position: relative;
+}
+
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
