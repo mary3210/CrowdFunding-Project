@@ -1,3 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&display=swap");
+
+h1 {
+    font-family: "Commissioner", sans-serif;
+}
+
+p {
+    font-family: "Commissioner", sans-serif;
+    color: #7e7e7e;
+}
 body {
     background-color: rgba(250, 250, 250, 255);
     display: flex;
@@ -18,6 +28,7 @@ nav.nav {
 }
 
 nav.nav span {
+    font-family: "Commissioner", sans-serif;
     margin-right: 15px;
     color: white;
 }
@@ -31,7 +42,6 @@ nav.nav span {
     padding-top: 40px;
     width: 100%;
 }
-
 
 .intro {
     display: flex;
@@ -59,6 +69,11 @@ nav.nav span {
     margin-left: 30px;
 }
 
+.projectBtn p {
+    color: white;
+    font-weight: 500;
+}
+
 .projectbookmark {
     display: flex;
     flex-direction: row;
@@ -69,8 +84,6 @@ nav.nav span {
 }
 
 .bookmarkContainer {
-    position: relative;
-    right: 155px;
     display: flex;
 }
 
@@ -79,21 +92,30 @@ nav.nav span {
     background-color: lightgrey;
     border-radius: 30px;
     align-items: center;
-    width: 134px;
+    width: 149px;
     height: 45px;
     align-self: center;
     justify-content: flex-end;
-    position: absolute;
+    margin-right: 30px;
+}
+
+.bookmark p {
+    color: hsl(0, 0%, 48%);
+}
+.bookmarktxt {
+    display: flex;
+    width: 105px;
+    justify-content: center;
 }
 
 .bookmark span {
-    margin-right: 14px;
+    font-weight: 600;
 }
 
 .bookmark svg {
     scale: 80%;
     position: absolute;
-    right: 84px;
+    right: 129px;
     opacity: 70%;
 }
 
@@ -101,4 +123,63 @@ nav.nav span {
     position: absolute;
     top: -32px;
     scale: 90%;
+    left: calc(50% - 25px);
+}
+
+.boxContent1 {
+    margin-top: 25px;
+}
+
+.progressWrapper {
+    background-color: white;
+    width: 686px;
+    border-radius: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 30px;
+}
+.progress {
+    display: flex;
+    background-color: white;
+    width: 686px;
+    justify-content: space-evenly;
+    border-radius: 30px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+
+.bold {
+    font-family: 'Commissioner';
+    font-weight: 700;
+    font-size: 25px;
+}
+.backersContent{border-left: 1px solid #7e7e7e;
+    border-right: 1px solid #7e7e7e;
+    width: 228px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt {
+    font-family: 'Commissioner';
+    color: #7e7e7e;
+    padding-top: 5px;
+}
+
+.progressNumContainer {
+    background-color: lightgray;
+    height: 10px;
+    border-radius: 30px;
+    margin-left: 55px;
+    margin-right: 55px;
+}
+
+
+.progressNum {
+    background-color: hsl(176, 50%, 47%);
+    height: 10px;
+    width: 80%;
+    border-radius: 30px;
 }
