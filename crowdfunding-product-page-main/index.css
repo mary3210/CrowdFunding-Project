@@ -183,3 +183,89 @@ nav.nav span {
     width: 80%;
     border-radius: 30px;
 }
+
+.about {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 686px;
+    margin-top: 30px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+.aboutHeader {
+        padding-left: 30px;
+        padding-right: 30px;
+        font-family: 'Commissioner';
+}
+.aboutContent {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: "Commissioner", sans-serif;
+    color: #7e7e7e;
+}
+
+.paragraph1 {
+    padding-bottom: 20px;
+}
+
+
+.productInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Commissioner';
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.pledges {
+    color: hsl(176, 50%, 47%);
+    font-weight: 500;
+}
+
+.productInformation {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Commissioner';
+    color: #7e7e7e;
+}
+
+.productPledge {
+    font-family: 'Commissioner';
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items: center;
+}
+.pledgesLeft {
+    display: flex;
+    align-items: center;
+}
+
+.left {
+    padding-left: 10px;
+    font-family: 'Commissioner';
+    color: #7e7e7e;
+}
+
+.selectRewardContainer {
+    display: flex;
+    align-items: center;
+    background-color: hsl(176, 50%, 47%);
+    border-radius: 20px;
+    height: 43px;
+    width: 130px;
+    justify-content: center;
+    color: white;
+}
+
+.ProductContainer {
+    border: solid 1px lightgray;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+}
