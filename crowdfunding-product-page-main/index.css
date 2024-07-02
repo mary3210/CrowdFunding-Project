@@ -149,11 +149,12 @@ nav.nav span {
 }
 
 .bold {
-    font-family: 'Commissioner';
+    font-family: "Commissioner";
     font-weight: 700;
     font-size: 25px;
 }
-.backersContent{border-left: 1px solid #7e7e7e;
+.backersContent {
+    border-left: 1px solid #7e7e7e;
     border-right: 1px solid #7e7e7e;
     width: 228px;
     display: flex;
@@ -163,7 +164,7 @@ nav.nav span {
 }
 
 .txt {
-    font-family: 'Commissioner';
+    font-family: "Commissioner";
     color: #7e7e7e;
     padding-top: 5px;
 }
@@ -175,7 +176,6 @@ nav.nav span {
     margin-left: 55px;
     margin-right: 55px;
 }
-
 
 .progressNum {
     background-color: hsl(176, 50%, 47%);
@@ -195,9 +195,9 @@ nav.nav span {
     padding-bottom: 30px;
 }
 .aboutHeader {
-        padding-left: 30px;
-        padding-right: 30px;
-        font-family: 'Commissioner';
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: "Commissioner";
 }
 .aboutContent {
     padding-left: 30px;
@@ -210,12 +210,11 @@ nav.nav span {
     padding-bottom: 20px;
 }
 
-
 .productInfo {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-family: 'Commissioner';
+    font-family: "Commissioner";
     padding-right: 30px;
     padding-left: 30px;
 }
@@ -228,12 +227,12 @@ nav.nav span {
 .productInformation {
     padding-left: 30px;
     padding-right: 30px;
-    font-family: 'Commissioner';
+    font-family: "Commissioner";
     color: #7e7e7e;
 }
 
 .productPledge {
-    font-family: 'Commissioner';
+    font-family: "Commissioner";
     display: flex;
     justify-content: space-between;
     padding-left: 30px;
@@ -247,7 +246,7 @@ nav.nav span {
 
 .left {
     padding-left: 10px;
-    font-family: 'Commissioner';
+    font-family: "Commissioner";
     color: #7e7e7e;
 }
 
@@ -273,4 +272,76 @@ nav.nav span {
     margin-top: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.selectNoRewardContainer {
+    display: flex;
+    align-items: center;
+    background-color: grey;
+    border-radius: 30px;
+    height: 43px;
+    width: 130px;
+    font-size: 14px;
+    color: white;
+    font-weight: 600;
+    padding: 2px;
+    justify-content: center;
+}
+
+.FadedProductContainer {
+    border: solid 1px lightgray;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    opacity: 60%;
+}
+
+.SelectionModule {
+    padding: 30px;
+    border-radius: 30px;
+    font-family: "Commissioner";
+}
+
+.pledgeOption {
+    border: solid 1px lightgray;
+    border-radius: 10px;
+    /* margin-left: 10px; */
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px; */
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.pledgeName {
+    font-weight: 600;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.makeInvisibleForNow {
+    display: none;
+}
+
+.selectedPledge {
+    display: none;
+}
+
+.supportTxt {
+    padding-bottom: 25px;
+    color: #7e7e7e;
+}
+
+.content {
+    display: flex;
+}
+
+.amount {
+    padding-left: 10px;
+}
+
+.pledgeName {
+    justify-content: space-between;
 }
